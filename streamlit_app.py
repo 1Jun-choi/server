@@ -10,5 +10,9 @@ st.markdown('<h1>태그를 쓸 수 있어요</h1>')
 st.text_input('사용자 입력을 받아보세요: ')
 
 # 이외에도 다양한 기능 엄청 많다~ 
-st.button 
+if st.button('Say hello'):
+  st.write('Why hello there')
+else:
+  st.write('Goodbye')
+
 st.sidebar 
